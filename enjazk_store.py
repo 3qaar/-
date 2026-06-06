@@ -4,6 +4,7 @@ import csv
 import json
 import base64
 import urllib.parse
+import { Analytics } from "@vercel/analytics/next"
 from datetime import datetime
 from functools import wraps
 from flask import Flask, render_template_string, request, jsonify, redirect, url_for, session, Response
