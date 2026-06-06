@@ -1,0 +1,5 @@
+src = open('enjazk_store.py').read()
+src = src.replace('showSuccessModal(d.order_id,d.customer_wa_link);}', 'showSuccessModal(d.order_id,d.customer_wa_link,d.bank_info);}')
+open('enjazk_store.py','w').write(src)
+exit()
+
